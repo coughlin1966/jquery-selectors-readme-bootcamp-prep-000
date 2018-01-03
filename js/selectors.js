@@ -34,6 +34,6 @@ function divSelector() {
 
 function firstListItem() {
   var list = []
-  list = $('ul #pic-list:first-child')
+  list = $('ul pic-list:first-child')
   return list
 }
